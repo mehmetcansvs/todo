@@ -5,6 +5,7 @@ import React from 'react';
 export default function SubmitButton(props) {
 
     return (
-        <button className="SubmitButton" type="button">Add</button>
+        <button className="SubmitButton" type="button" 
+                onClick={props.onClick}>Add</button>
     )
 }

@@ -5,7 +5,7 @@ export default function ToDos(props) {
 
     return(
     <div className='Todo'>
-        <p>Task 1</p>
+        <p>{props.text}</p>
         <button type='button'>Delete</button>
     </div>)
 }
