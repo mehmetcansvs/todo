@@ -13,6 +13,13 @@ function App() {
     setTempTodo(() => inputText);
   }
 
+  const handleDelete = (deleteText) => {
+    const index = todos.indexOf(deleteText);
+    let copyTodos = Array.from(todos);
+    copyTodos.splice(index, 1);
+    setTodos(copyTodos);
+  }
+
   const handleSubmit = () => {
     setTodos(prev => [...prev, tempTodo]);
   }
@@ -27,7 +34,7 @@ function App() {
         <SubmitButton onClick={handleSubmit}/>
       </div>
       <div className="Listdiv">
-        <ToDoList todos={todos}/>
+        <ToDoList todos={todos} onClick={handleDelete}/>
       </div>
     </div>
   );
