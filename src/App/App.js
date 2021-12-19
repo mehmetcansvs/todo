@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 import InputBar from '../InputBar/InputBar';
+import SubmitButton from '../SubmitButton/SubmitButton';
+import ToDoList from '../ToDoList/ToDoList';
 
 function App() {
   return (
@@ -10,10 +12,10 @@ function App() {
       </header>
       <div className="Inputdiv">
         <InputBar />
-        {/* SubmitButton */}
+        <SubmitButton />
       </div>
       <div className="Listdiv">
-        {/* Dos */}
+        <ToDoList />
       </div>
     </div>
   );
