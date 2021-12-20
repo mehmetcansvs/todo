@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     overflow: hidden;
     text-align: center;
-    background-color: #FA26A0;
+    background-color: #FDF0D5;
 }
 
 header h1 {
+    font-weight: 800;
     margin-top: 3.5rem;
     padding: 5rem 2rem;
-    font-size: 2rem;
-    color: #EEEEEE;
+    font-size: 3.5rem;
+    color: #003049;
 }
 
 .Inputdiv {
     padding: 2rem 2rem;
     text-align: center;
-    background-color: #FA26A0;
+    background-color: #FDF0D5;
 }
 
 .Listdiv {
-    background-color: #FA26A0;
+    background-color: #FDF0D5;
 }

@@ -1,0 +1,28 @@
+.Todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 2rem;
+    background-color: #669BBC;
+    padding: 1rem 0rem;
+    border-radius: 1rem;
+}
+
+.Todo button {
+    margin-left: 0.5rem;
+    background-color: #003049;
+    color: #FDF0D5;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 5rem;
+}
+
+.Todo p {
+    color: #FDF0D5;
+    font-size: 1.5rem;
+}
