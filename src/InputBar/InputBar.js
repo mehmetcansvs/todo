@@ -9,7 +9,12 @@ export default function InputBar(props) {
         props.onChange(e.target.value);
     }
 
+    const handleFocus = (e) => {
+        e.target.value = '';
+    }
+
     return (
-        <input className="InputBar" type="text" onChange={handleChange}></input>
+        <input className="InputBar" type="text" onChange={handleChange}
+                onFocus={handleFocus}></input>
     )
 }
