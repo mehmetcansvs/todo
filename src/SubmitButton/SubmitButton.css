@@ -1,0 +1,12 @@
+.SubmitButton {
+    margin-left: 0.5rem;
+    background-color: #190c8d;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 5rem;
+}

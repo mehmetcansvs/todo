@@ -7,7 +7,7 @@
 header {
     overflow: hidden;
     text-align: center;
-    background-color: #FF0075;
+    background-color: #FA26A0;
 }
 
 header h1 {
@@ -15,4 +15,14 @@ header h1 {
     padding: 5rem 2rem;
     font-size: 2rem;
     color: #EEEEEE;
+}
+
+.Inputdiv {
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: #FA26A0;
+}
+
+.Listdiv {
+    background-color: #FA26A0;
 }
