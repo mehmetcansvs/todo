@@ -1,4 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 18px;
+}
+
+header {
+    overflow: hidden;
+    text-align: center;
+    background-color: #FF0075;
+}
+
+header h1 {
+    margin-top: 3.5rem;
+    padding: 5rem 2rem;
+    font-size: 2rem;
+    color: #EEEEEE;
 }

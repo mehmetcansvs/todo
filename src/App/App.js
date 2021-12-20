@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>React To-Do App</h1>
+        <h1>What to DO?</h1>
       </header>
       <div className="Inputdiv">
         <InputBar onChange={handleInput}/>
